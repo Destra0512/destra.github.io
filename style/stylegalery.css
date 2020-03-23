@@ -7,19 +7,17 @@ body {
 
 .navbar-brand, .nav-link {
     color: white !important;
+    text-align: center;
 }
 
 .nav-link {
     font-family: 'Poppins', sans-serif;
+    margin-right: 30px;
 }
 
 .navbar-brand {
     font-family: 'Merienda One', cursive;
     font-size: 40px;
-}
-
-.navbar-brand {
-    margin-right: 246px;
 }
 
 .nav-link:hover::after {
@@ -31,6 +29,18 @@ body {
     padding-bottom: 5px;
     margin-bottom: -8px;
 }
+
+.collapse .navbar-nav .btn-primary {
+    background-color: #FEA754;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border: none;
+}
+
+.collapse .navbar-nav .btn-primary:hover {
+    background-color: rgb(224, 138, 57);
+}
+
 
 
 
@@ -47,7 +57,7 @@ body {
 .jumbotron {
     background-image: url(../image/galery.jpg);
     background-size: cover;
-    height: 670px;
+    height: 800px;
 }
 
 .jumbotron {
@@ -61,14 +71,8 @@ body {
         color: black !important;
     }
 
-    .nav-link:hover::after {
-        content: '';
-        display: block;
-    }
-
     .nav-link {
-        text-transform: uppercase;
-        margin-left: 30px;
+        margin-right: 0px;
     }
 
     .jumbotron {
@@ -77,6 +81,24 @@ body {
 
     .container .row .col h3 {
         margin-left: 120px;
+    }
+
+    .footer {
+        width: 100%;
+        background: linear-gradient(to right, rgba(6,45,161,1) 0%, rgba(12,71,235,1) 100%);
+        height: 330px !important;
+    }
+
+    .footer .container .row h4 {
+        margin-top: 10px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 10px !important;
+    }
+
+    .navbar-nav .btn {
+        width: 100% !important;
     }
     
 }
@@ -117,7 +139,7 @@ body {
 .footer {
     width: 100%;
     margin-top: 50px;
-    height: 197px;
+    height: 230px;
     background: linear-gradient(to right, rgba(6,45,161,1) 0%, rgba(12,71,235,1) 100%);
     color: white;
 }
@@ -129,26 +151,27 @@ body {
     font-weight: 700;
 }
 
-.footer .container .row {
-    padding-top: 50px;
-}
-
-.container .row .col h4 {
+.footer .container .row h4 {
     font-family: 'Merienda One', cursive;
     font-size: 40px;
 }
 
-.container .row .col h3 {
-    padding-top: 9px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    margin-left: 190px;
-}
-
-.container .row .col p {
+.footer .container .row p {
     font-family: 'Poppins', sans-serif;
 }
 
-.container .row .col img {
-    margin-right: 20px;
+.footer .container .row h3 {
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.footer .container .row span {
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer .container .row img {
+    padding-bottom: 10px;
 }
